@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #eae4d9; /* sabbia */
+  color: #2c2c2c;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #5f6f52; /* verde oliva scuro */
+  color: white;
+  padding: 14px 24px;
+  margin: 0;
+}
+
+.logo {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  color: white;
+  margin-right: 16px;
+}
+
+.navbar a {
+  color: #eae4d9;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-left: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+  background-image: linear-gradient(to right, #5f6f52, #8a817c); 
+  color: white;
+  font-family: Georgia, serif;
+  padding: 60px 40px;
+  margin: 0;
+}
+
+.hero-titolo {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* BOTTONE */
+.bottone {
+  background-color: white;
+  color: #5f6f52;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.bottone:hover {
+  background-color: #ddd8cf;
+}
+
+/* SEZIONI */
+.sezione {
+  padding: 48px 40px;
+  margin: 0;
+}
+
+.sezione.verde {
+  background-color: #5f6f52;
+  color: white;
+}
+
+.sezione.grigio {
+  background-color: #eae4d9;
+}
+
+/* TITOLI SEZIONE */
+.titolo {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  color: #5f6f52;
+  border-bottom: 3px solid #8a817c;
+  padding-bottom: 6px;
+}
+
+.titolo-bianco {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  color: white;
+  border-bottom: 3px solid #d6d0c4;
+  padding-bottom: 6px;
+}
+
+/* NUMERI STATISTICHE */
+.numero {
+  font-size: 1.3rem;
+  color: #d6d0c4;
+}
+
+/* CITAZIONE */
+.citazione {
+  background-image: linear-gradient(to right, #5f6f52, #8a817c);
+  color: white;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 60px 40px;
+  margin: 0;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #5f6f52; /* oliva ancora più scuro */
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+  padding: 28px 20px;
+  margin: 0;
+  font-size: 0.9rem;
+}
