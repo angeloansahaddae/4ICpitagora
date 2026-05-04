@@ -1,13 +1,44 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #eae4d9; /* sabbia */
+  padding: 20px;
+  background-color: #eae4d9;  /* sabbia *//* mantieni questo */
   color: #2c2c2c;
 }
 
+
+
+/* NAV LINKS IN ORIZZONTALE */
+.nav-links {
+  list-style: none;       /* toglie i puntini */
+  display: flex;          /* mette in riga */
+  gap: 15px;              /* spazio tra link */
+  margin: 0;
+  padding: 0;
+}
+
+/* opzionale: allinea navbar meglio */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+
+
 /* NAVBAR */
 .navbar {
-  background-color: #5f6f52; /* verde oliva scuro */
+  background-color: #5f6f52;
+  /* verde oliva scuro */
   color: white;
   padding: 14px 24px;
   margin: 0;
@@ -33,7 +64,7 @@ body {
 
 /* HERO */
 .hero {
-  background-image: linear-gradient(to right, #5f6f52, #8a817c); 
+  background-image: linear-gradient(to right, #5f6f52, #8a817c);
   color: white;
   font-family: Georgia, serif;
   padding: 60px 40px;
@@ -112,10 +143,74 @@ body {
 
 /* FOOTER */
 .footer {
-  background-color: #5f6f52; /* oliva ancora più scuro */
+  background-color: #5f6f52;
+  /* oliva ancora più scuro */
   color: rgba(255, 255, 255, 0.87);
   text-align: center;
   padding: 28px 20px;
   margin: 0;
   font-size: 0.9rem;
+}
+
+
+
+
+/* IMMAGINE */
+img {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* FORM BOX */
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* INPUT */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* BOTTONI */
+.bottoni {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
 }
